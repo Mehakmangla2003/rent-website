@@ -1,0 +1,29 @@
+/* Basic styling for the featured box */
+.featured .box {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for the featured box */
+.featured .box:hover {
+  transform: scale(1.05); /* Scale the box to 105% */
+  box-shadow: 0 0 30px 0 rgb(112 121 138 / 30%); /* Enhance the shadow */
+  background-color: #f8f8f8; /* Optional: Change background color on hover */
+}
+
+/* Styling for images within the featured box */
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  transition: transform 0.3s ease; /* Smooth transition for the image */
+}
+
+/* Optional: Hover effect for images */
+.featured .box:hover img {
+  transform: scale(1.1); /* Slight zoom effect on image when box is hovered */
+}
